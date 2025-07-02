@@ -1,9 +1,42 @@
-# FARM-E-Plantation-Robot
-The robot does basic plantation (Ploughing, Sowing, Watering &amp; Enclosing) functions when placed on a field in a regular interval of time and also updates information like temperature &amp; humidity
+# FARM-E Plantation Robot
 
-The robot was programmed using Arduino IDE.
-Arduino UNO & NodeMCU 1.2 were the boards used and were interfaced using Serial Communication. A funnel & water tank was 3D printed to fit the needs. All the components were placed in a custom made metal chasis and was mobilised using 200 RPM DC Geared Motors.
+![FARM-E Robot](FARME.jpg)
 
-The robot can either be automated or controlled manually through an app created using MIT App Inventor. The temperature and humidity readings are also displayed on the app.
+**FARM-E** is a multifunctional plantation robot designed to automate key agricultural processes such as **ploughing, sowing, watering**, and **enclosing**. It performs these tasks at regular intervals when placed in a field, while also monitoring and updating real-time environmental data like **temperature** and **humidity**.
 
-When compared to an average plantation machine, this robot performs a variety of tasks on one go.
+---
+
+## 🛠️ Hardware Overview
+
+- **Microcontrollers Used:** Arduino UNO & NodeMCU 1.2  
+- **Communication Protocol:** Serial Communication  
+- **Mobility:** 200 RPM DC Geared Motors  
+- **Custom Parts:** 3D-printed funnel and water tank  
+- **Chassis:** Custom-built metal frame
+
+---
+
+## 💡 Features
+
+- Dual operation modes: **Automated** and **Manual**  
+- **Mobile app** (built with MIT App Inventor) for remote control and monitoring  
+- Real-time **temperature** and **humidity** display on the app  
+- Integrates multiple agricultural tasks into one compact unit
+
+---
+
+## 🧠 Programming
+
+The robot is programmed using the **Arduino IDE**.  
+The Arduino UNO and NodeMCU 1.2 communicate via **Serial Communication** to coordinate sensor readings and actuation.
+
+---
+
+## 🚀 Advantages
+
+Compared to traditional plantation machinery, FARM-E offers:
+
+- Multiple tasks in one pass (ploughing, sowing, watering, enclosing)  
+- App-based control and monitoring  
+- Greater efficiency and lower labor requirements  
+- Ideal for small to medium-scale farms
